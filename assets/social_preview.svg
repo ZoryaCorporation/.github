@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+    <defs>
+        <!-- Zorya pink gradient -->
+        <linearGradient id="cosmicGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#FF006E;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#FF1B8D;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#FF3BB5;stop-opacity:1" />
+        </linearGradient>
+        
+        <!-- Subtle glow effect -->
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="1280" height="640" fill="#000000" />
+    
+    <!-- Subtle grid pattern -->
+    <defs>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF006E" stroke-width="0.3" opacity="0.1" />
+        </pattern>
+    </defs>
+    <rect width="1280" height="640" fill="url(#grid)" />
+
+    <!-- LOGO - Left side -->
+    <g transform="translate(200, 320) scale(2.5)">
+        <!-- GALDAN (create) - top -->
+        <g transform="translate(0, -65)">
+            <path d="M -22 -12 L -25 -15 L 0 20 L 25 -15 L 22 -12 L 0 15 Z" fill="url(#cosmicGlow)" filter="url(#glow)" />
+        </g>
+
+        <!-- KHAELA (fire) - middle -->
+        <g transform="translate(0, 0)">
+            <path d="M -15 35 L -12 33 L -8 18 L -10 -12 L -8 -10 L -5 22 L 0 -8 L 2 -6 L 5 22 L 8 -10 L 10 -12 L 8 18 L 12 33 L 15 35 L 10 33 L 0 8 L -10 33 Z" fill="url(#cosmicGlow)" filter="url(#glow)" />
+        </g>
+
+        <!-- PELA (foundation) - bottom -->
+        <g transform="translate(0, 65)">
+            <path d="M -24 20 L -26 22 L 0 -16 L 26 22 L 24 20 L 0 -12 Z" fill="url(#cosmicGlow)" filter="url(#glow)" />
+            <path d="M -14 12 L -16 14 L 0 -6 L 16 14 L 14 12 L 0 -2 Z" fill="url(#cosmicGlow)" filter="url(#glow)" />
+        </g>
+    </g>
+
+    <!-- Text - Right side -->
+    <g transform="translate(450, 320)">
+        <!-- ZORYA CORPORATION -->
+        <text x="0" y="-80" font-family="Arial, sans-serif" font-size="72" fill="url(#cosmicGlow)" font-weight="bold" letter-spacing="8">
+            ZORYA
+        </text>
+        <text x="0" y="-20" font-family="Arial, sans-serif" font-size="36" fill="#FF3BB5" font-weight="normal" letter-spacing="12">
+            CORPORATION
+        </text>
+        
+        <!-- Tagline -->
+        <text x="0" y="40" font-family="Arial, sans-serif" font-size="20" fill="#888888" letter-spacing="4">
+            Create • Transform • Build
+        </text>
+        
+        <!-- Description -->
+        <text x="0" y="100" font-family="Arial, sans-serif" font-size="16" fill="#666666">
+            Engineering Excellence Without Compromise
+        </text>
+        
+        <!-- Tech badges simulation -->
+        <g transform="translate(0, 140)">
+            <rect x="0" y="0" width="50" height="24" rx="4" fill="#00599C" />
+            <text x="25" y="16" font-family="Arial" font-size="12" fill="white" text-anchor="middle">C</text>
+            
+            <rect x="60" y="0" width="70" height="24" rx="4" fill="#FF006E" />
+            <text x="95" y="16" font-family="Arial" font-size="12" fill="white" text-anchor="middle">COBOL</text>
+            
+            <rect x="140" y="0" width="50" height="24" rx="4" fill="#777BB4" />
+            <text x="165" y="16" font-family="Arial" font-size="12" fill="white" text-anchor="middle">PHP</text>
+            
+            <rect x="200" y="0" width="50" height="24" rx="4" fill="#2C2D72" />
+            <text x="225" y="16" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Lua</text>
+        </g>
+    </g>
+
+    <!-- Decorative line -->
+    <line x1="380" y1="180" x2="380" y2="460" stroke="url(#cosmicGlow)" stroke-width="2" opacity="0.5" />
+</svg>

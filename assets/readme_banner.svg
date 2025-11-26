@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- README Header Banner - Full width, works in markdown -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+    <defs>
+        <linearGradient id="cosmicGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#FF006E;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#FF1B8D;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#FF3BB5;stop-opacity:1" />
+        </linearGradient>
+        
+        <linearGradient id="fadeRight" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background -->
+    <rect width="1200" height="300" fill="url(#fadeRight)" />
+    
+    <!-- Subtle accent line at bottom -->
+    <rect x="0" y="296" width="1200" height="4" fill="url(#cosmicGlow)" />
+
+    <!-- LOGO - Left -->
+    <g transform="translate(100, 150) scale(1.8)">
+        <!-- GALDAN -->
+        <g transform="translate(0, -45)">
+            <path d="M -22 -12 L -25 -15 L 0 20 L 25 -15 L 22 -12 L 0 15 Z" fill="url(#cosmicGlow)" />
+        </g>
+        <!-- KHAELA -->
+        <g transform="translate(0, 0)">
+            <path d="M -15 30 L -12 28 L -8 12 L -10 -12 L -8 -10 L -5 16 L 0 -6 L 2 -4 L 5 16 L 8 -10 L 10 -12 L 8 12 L 12 28 L 15 30 L 10 28 L 0 5 L -10 28 Z" fill="url(#cosmicGlow)" />
+        </g>
+        <!-- PELA -->
+        <g transform="translate(0, 45)">
+            <path d="M -24 20 L -26 22 L 0 -16 L 26 22 L 24 20 L 0 -12 Z" fill="url(#cosmicGlow)" />
+            <path d="M -14 12 L -16 14 L 0 -6 L 16 14 L 14 12 L 0 -2 Z" fill="url(#cosmicGlow)" />
+        </g>
+    </g>
+
+    <!-- Vertical separator -->
+    <line x1="220" y1="50" x2="220" y2="250" stroke="#FF006E" stroke-width="1" opacity="0.3" />
+
+    <!-- Text -->
+    <text x="260" y="120" font-family="Arial, sans-serif" font-size="56" fill="url(#cosmicGlow)" font-weight="bold" letter-spacing="6">
+        ZORYA CORPORATION
+    </text>
+    <text x="260" y="170" font-family="Arial, sans-serif" font-size="20" fill="#888888" letter-spacing="3">
+        Create • Transform • Build
+    </text>
+    <text x="260" y="220" font-family="Arial, sans-serif" font-size="14" fill="#555555">
+        Industrial-grade systems software · Compiler engineering · Safety-critical code
+    </text>
+</svg>
