@@ -8,11 +8,11 @@
 <div align="center">
 
 <!-- LOGO -->
-<img src="https://raw.githubusercontent.com/ZoryaCorporation/.github/main/assets/zorya_logo.svg" alt="Zorya Corporation" width="200" height="300"/>
+<img src="https://raw.githubusercontent.com/ZoryaCorporation/.github/main/assets/profile_picture.svg" alt="Zorya Corporation" width="200" height="200"/>
 
 # ZORYA CORPORATION
 
-### *Create • Transform • Build*
+### *Create · Transform · Build*
 
 **Engineering Excellence Without Compromise**
 
@@ -24,7 +24,7 @@
 
 </div>
 
-## 🌙 About
+## About
 
 Zorya Corporation develops **industrial-grade systems software** with a focus on:
 
@@ -37,7 +37,7 @@ We build tools that **show their work** — fully documented, fully traceable, f
 
 ---
 
-## 🔥 Flagship Projects
+## Flagship Projects
 
 <table>
 <tr>
@@ -51,8 +51,6 @@ We build tools that **show their work** — fully documented, fully traceable, f
 - Zero vendor dependencies
 - MIT licensed
 
-`COBOL` `C99` `Compilers`
-
 </td>
 <td width="50%">
 
@@ -64,24 +62,9 @@ We build tools that **show their work** — fully documented, fully traceable, f
 - Mathematical library
 - Safety-critical design
 
-`C89` `GPU` `AI` `CUDA`
-
 </td>
 </tr>
 <tr>
-<td width="50%">
-
-### Hecate MCP
-**Industrial MCP Server**
-
-- 30K+ lines PHP
-- Redis + PostgreSQL backend
-- Web scraping with OCR
-- Research paper indexing
-
-`PHP` `MCP` `Redis` `PostgreSQL`
-
-</td>
 <td width="50%">
 
 ### ZORYA-C Standard
@@ -92,7 +75,15 @@ We build tools that **show their work** — fully documented, fully traceable, f
 - Audit-first philosophy
 - Performance pragmatism
 
-`C89` `C99` `Standards` `Safety`
+</td>
+<td width="50%">
+
+### More Coming Soon
+**Additional Projects**
+
+- Systems programming
+- Compiler toolchains
+- Developer infrastructure
 
 </td>
 </tr>
@@ -100,7 +91,7 @@ We build tools that **show their work** — fully documented, fully traceable, f
 
 ---
 
-## 📐 The ZORYA-C Philosophy
+## The ZORYA-C Philosophy
 
 ```
 "Safety-critical reliability + Performance pragmatism + Explicit intent + Audit-first"
@@ -112,7 +103,7 @@ Every symbol prefixed. Every error checked. Every decision documented.
 
 ---
 
-## 🌟 Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -128,20 +119,6 @@ Every symbol prefixed. Every error checked. Every decision documented.
 
 ---
 
-## 📜 Language & Heritage
-
-The Zorya brand draws from **Ilian**, a constructed language with its own writing system:
-
-| Glyph | Name | Meaning |
-|:-----:|------|---------|
-| ∨ | **GALDAN** | Create — The act of bringing forth |
-| 🔥 | **KHAELA** | Fire — Transformation through heat |
-| ∧∧ | **PELA** | Foundation — Stable base to build upon |
-
-The Zorya logo speaks: **"Create with fire upon foundation"**
-
----
-
 <div align="center">
 
 ### *"The most dangerous phrase in the language is, 'We've always done it this way.'"*
@@ -150,7 +127,5 @@ The Zorya logo speaks: **"Create with fire upon foundation"**
 ---
 
 **United States** · Engineering Since 2025
-
-[![Website](https://img.shields.io/badge/Website-Coming%20Soon-FF006E?style=for-the-badge)](https://github.com/ZoryaCorporation)
 
 </div>
