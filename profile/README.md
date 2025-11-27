@@ -7,20 +7,14 @@
 
 <div align="center">
 
-<!-- LOGO -->
-<img src="https://raw.githubusercontent.com/ZoryaCorporation/.github/main/assets/profile_picture.svg" alt="Zorya Corporation" width="200" height="200"/>
+<!-- BANNER -->
+<img src="https://raw.githubusercontent.com/ZoryaCorporation/.github/main/assets/readme_banner.svg" alt="Zorya Corporation" width="100%"/>
 
-# ZORYA CORPORATION
-
-### *Create · Transform · Build*
-
-**Engineering Excellence Without Compromise**
+---
 
 [![PRO](https://img.shields.io/badge/GitHub-PRO-FF006E?style=for-the-badge&logo=github)](https://github.com/ZoryaCorporation)
 [![C](https://img.shields.io/badge/C89%2FC99%2FC11-00599C?style=for-the-badge&logo=c&logoColor=white)](https://github.com/ZoryaCorporation)
 [![COBOL](https://img.shields.io/badge/COBOL--85-FF006E?style=for-the-badge)](https://github.com/ZoryaCorporation)
-
----
 
 </div>
 
@@ -55,12 +49,12 @@ We build tools that **show their work** — fully documented, fully traceable, f
 <td width="50%">
 
 ### NEXUS AI
-**C89 GPU Framework for AI**
+**C99 designed LLM**
 
-- Direct GPU memory management
-- CUDA-free inference
-- Mathematical library
-- Safety-critical design
+- More details coming soon!
+- But.. "More human than human"
+ 
+
 
 </td>
 </tr>
